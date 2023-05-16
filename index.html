@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplotel Assignments</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <div class="logo"></div>
+      <div class="flex nav-links" id="nav-toggle">
+        <a href="#">Home</a>
+        <a href="order.html">Order</a>
+        <a href="order.html">Food</a>
+        <a href="order.html">Restaurant</a>
+        <a href="order.html">Testimonials</a>
+        <a href="order.html">Contact Us</a>
+        <div class="icons">
+          <i class="bx bxs-phone-call"></i>
+          <i class="bx bx-cart-add"></i>
+        </div>
+      </div>
+      <a href="#" class="nav-toggle" id="nav-btn"><i class="bx bx-menu"></i></a>
+    </header>
+    <main>
+      <div class="content">
+        <h1>LOREM IPSUM</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+          inventore quisquam necessitatibus obcaecati soluta, totam minus
+          tenetur iste saepe,
+        </p>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script>
+      const togglebtn = document.getElementById("nav-btn");
+      const navlinks = document.getElementById("nav-toggle");
+
+      togglebtn.addEventListener("click", () => {
+        navlinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
